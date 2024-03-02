@@ -37,5 +37,6 @@ def match_photos_to_system_ids(excel_file, photo_folder, output_file):
 excel_file_path = "employees.xlsx"
 photo_folder_path = "/Photos"
 output_file_path = "employees_with_photos.xlsx"
+
 #calling the function to host file, host folder, output file
 match_photos_to_system_ids(excel_file_path, photo_folder_path, output_file_path)
